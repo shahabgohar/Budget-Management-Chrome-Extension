@@ -1,0 +1,21 @@
+types of extensions
+1 ==> Browser Action Extensions
+      Stay in toolbar
+      Accessible all time
+2 ==> Page Action Extension
+      works only on certain pages
+3 ==> neither of the above
+        runs only in the background
+extension contains only the manifest html css js icons
+
+manifest must only contain atleast
+            ==> manifest version
+            ==> name of ext
+            ==> version of ext
+            ==>permission is used for accessing some stuff from the chrome
+          ==> option page is used for adjusting some options
+
+
+In extensions there are two types
+===>background page :- when you need some code to run in background at all times
+===> event page :- runs in the background only when it is required e.g context menus. for event page specify persistent to false in manifest
